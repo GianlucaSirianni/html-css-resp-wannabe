@@ -185,6 +185,11 @@ img {
     /* .card{
         padding: 15px;
     } */
+
+    .lessons .col img {
+        height: 230px;
+        margin-bottom: 1rem;
+    }
     
 }
 
