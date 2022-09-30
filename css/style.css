@@ -127,3 +127,61 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* VERSIONE MOBILE 480px */
+
+@media screen and (max-width: 480px){
+    
+    .container {
+        width: 100%;
+        /* margin: 0 auto;
+        padding: 0 20px; */
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .col{
+        padding: 15px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us .col-left {
+        width: 80%;
+    }
+
+    .why-us .col-right {
+        width: 80%;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
+
+    .text{
+        margin: 0px 40px;
+    }
+
+    .container{
+        padding: 0;
+    }
+
+       
+}
+
+/* responsive  */
